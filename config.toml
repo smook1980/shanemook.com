@@ -1,0 +1,4 @@
+baseurl = "https://shanemook.com/"
+title = "shanemook.com"
+languageCode = "en-us"
+theme = "orbit"
