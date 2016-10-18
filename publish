@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+hugo
+git reset
+git add dist
+git commit -m"Site Update - $(date -v1m -v+1y)"
+git subtree push --prefix=dist publish master
