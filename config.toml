@@ -3,6 +3,7 @@ title = "shanemook.com"
 languageCode = "en-us"
 theme = "hugo-orbit-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
+publishdir = "dist"
 
 # Do not build files for websites. Need them? Set to false
 disableRSS = true
@@ -22,7 +23,7 @@ disable404 = true
     # are available. Also the source LESS files are included so
     # it’s quick and easy to change the styling and colour scheme.
 
-    styles = "styles-6.css"
+    styles = "styles.css"
 
 # Sidebar sections
 
@@ -39,42 +40,42 @@ disable404 = true
         [[params.contact.list]]
         class = "email"
         icon = "fa-envelope"
-        url = "mailto: yourname@email.com"
-        title = "john.doe@website.com"
+        url = "mailto: shane.mook@gmail.com"
+        title = "shane.mook@gmail.com"
 
         [[params.contact.list]]
         class = "phone"
         icon = "fa-phone"
-        url = "tel:+1234567890"
-        title = "+1234567890"
+        url = "tel:+3125020353"
+        title = "312-502-0353"
 
         [[params.contact.list]]
         class = "website"
         icon = "fa-globe"
-        url = "//portfoliosite.com"
-        title = "portfoliosite.com"
+        url = "//shanemookcom"
+        title = "shanemook.com"
 
         [[params.contact.list]]
         class = "linkedin"
         icon = "fa-linkedin"
-        url = "//linkedin.com/in/johndoe"
-        title = "linkedin.com/in/johndoe"
+        url = "//linkedin.com/in/shane-mook"
+        title = "linkedin.com/in/shane-mook"
 
         [[params.contact.list]]
         class = "github"
         icon = "fa-github"
-        url = "//github.com/username"
-        title = "github.com/username"
+        url = "//github.com/smook1980"
+        title = "github.com/smook1980"
 
         [[params.contact.list]]
         class = "twitter"
         icon = "fa-twitter"
-        url = "//twitter.com/username"
-        title = "@twittername"
+        url = "//twitter.com/smook1980"
+        title = "@smook1980"
 
     # Education section
     [params.education]
-        enable = true
+        enable = false
         title = "Education"
 
         [[params.education.list]]
@@ -89,7 +90,7 @@ disable404 = true
 
     # Languages section
     [params.languages]
-        enable = true
+        enable = false
         title = "Languages"
 
         [[params.languages.list]]
@@ -106,7 +107,7 @@ disable404 = true
 
     # Interests section
     [params.interests]
-        enable = true
+        enable = false
         title = "Interests"
 
         [[params.interests.list]]
