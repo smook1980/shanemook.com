@@ -56,16 +56,22 @@ disable404 = true
         title = "shanemook.com"
 
         [[params.contact.list]]
+        class = "website"
+        icon = "fa-google-plus"
+        url = "//plus.google.com/+ShaneMook"
+        title = "+ShaneMook"
+
+        [[params.contact.list]]
         class = "linkedin"
         icon = "fa-linkedin"
         url = "//linkedin.com/in/shane-mook"
-        title = "linkedin.com/in/shane-mook"
+        title = "shane-mook"
 
         [[params.contact.list]]
         class = "github"
         icon = "fa-github"
         url = "//github.com/smook1980"
-        title = "github.com/smook1980"
+        title = "smook1980"
 
         [[params.contact.list]]
         class = "twitter"
@@ -75,18 +81,13 @@ disable404 = true
 
     # Education section
     [params.education]
-        enable = false
+        enable = true
         title = "Education"
 
         [[params.education.list]]
-        degree = "MSc in Computer Science"
-        college = "University of London"
-        dates = "2006 - 2010"
-
-        [[params.education.list]]
-        degree = "BSc in Applied Mathematics"
-        college = "Bristol University"
-        dates = "2007 - 2011"
+        degree = "Computer Science"
+        college = "University of Wisconsin - La Crosse"
+        dates = "2008 - 2009"
 
     # Languages section
     [params.languages]
@@ -107,17 +108,17 @@ disable404 = true
 
     # Interests section
     [params.interests]
-        enable = false
+        enable = true
         title = "Interests"
 
         [[params.interests.list]]
-        interest = "Climbing"
+        interest = "My Dog - Tucker"
 
         [[params.interests.list]]
-        interest = "Snowboarding"
+        interest = "Backpacking and Hiking"
 
         [[params.interests.list]]
-        interest = "Cooking"
+        interest = "Travel"
 
 # Main body sections
 
@@ -128,7 +129,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "**Summarise your career here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu."
+        summary = "Full stack software engineer with over six and half years of expierence working in a team environment to produce outstanding web and mobile applications. An advocate for test drive design, refactoring code when appropriate to stay in line with the change business doamin, and high code stadards to maintain team velocity. Expeirence maintaining and scaling complicated backend systems use devops best practices to meet increasing and changing business demands. In addition to my primary role as a software engineer I have acted in several other roles to adapt to business needs -- server adminstrator, quality assurance, test engineer, database administrator, project manager and technical team lead."
 
     # Experiences section
     [params.experiences]
@@ -137,21 +138,27 @@ disable404 = true
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Lead Developer"
-        dates = "2015 - Present"
-        company = "Startup Hubs, San Francisco"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        position = "Freelance Consultant"
+        dates = "March 2016 - Present"
+        company = "Shane Mook Consulting, Chicago"
+        details = "TBD"
 
         [[params.jobs.list]]
         position = "Senior Software Engineer"
-        dates = "2014 - 2015"
-        company = "Google, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        dates = "May 2009 - March 2016"
+        company = "NCSA Athletic Recruit, Chicago"
+        details = "Full stack software developer with over five years experience in an agile environment.   I've worked extensively with Java, Spring, Struts, Hibernate, Ruby on Rails, Sintra to create tradiiontal web applications and restful APIs for client consumption.  Created fluid single page interfaces with Javascript, CoffeeScript, BackboneJS, EmberJS, and SASS/CSS.  Work closely with product owners to produce business value.  All production code is written in a test drive manner, often while pair programming.  Applied devops techniques to manage an increasingly complex infrastructure using chef in a test drive configuration with chefspec and vagrant.  Support close to 40 production servers in a highly available clustered configuration utilizing HAProxy, Apache HTTPD, Puma, Passenger, Tomcat, MySQL, MS SQL Server, MySQL, Postgres, ElasticSearch, Beanstalk, Drupal and Wordpress.  Servers are deployed to Amazon AWS, RackSpace and a private VMWare cluster.  Worked to eliminate single points of failure to reduce downtimes.  Recent work has been focussed on iOS and Android development."
 
         [[params.jobs.list]]
-        position = "UI Developer"
-        dates = "2012 - 2014"
-        company = "Amazon, London"
+        position = "Network and Support Specialist"
+        dates = "May 2008 - May 2009"
+        company = "NCSA Athletic Recruit, Chicago"
+        details = "Windows Client and Server Administration, Active Directory, Group Policy, Linux LAMP Administration, CVS Repository Administration, IP Phone Administration, Active Directory Integration With Various Systems, Python Scripting, HTML / JavaScript, Sonicwall Administration."
+
+        [[params.jobs.list]]
+        position = "Assistant Manager of Technology"
+        dates = "March 2002 - May 2008"
+        company = "FedEx Office, Madison, WI & Skokie, IL"
         details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
 
     # Projects section
@@ -193,28 +200,28 @@ disable404 = true
         title = "Skills & Proficiency"
 
         [[params.skills.list]]
-        skill = "Python & Django"
+        skill = "Ruby"
         level = "98%"
 
         [[params.skills.list]]
-        skill = "Javascript & jQuery"
+        skill = "Ruby On Rails"
         level = "98%"
 
         [[params.skills.list]]
-        skill = "Angular"
+        skill = "Javascript/Coffescript"
         level = "95%"
 
         [[params.skills.list]]
-        skill = "HTML5 & CSS"
-        level = "95%"
+        skill = "Java - Spring, Hybernate"
+        level = "90%"
 
         [[params.skills.list]]
-        skill = "Ruby on Rails"
-        level = "75%"
+        skill = "Semantic HTML5 & CSS"
+        level = "85%"
 
         [[params.skills.list]]
-        skill = "Sketch & Photoshop"
-        level = "60%"
+        skill = "Devops - Docker, Linux, Postgres DBA"
+        level = "80%"
 
     # Footer section
 
@@ -226,4 +233,4 @@ disable404 = true
     # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
 
     [params.footer]
-        copyright = ""
+        copyright = "Shane Mook"
