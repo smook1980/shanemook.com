@@ -38,6 +38,12 @@ disable404 = true
         enable = true
 
         [[params.contact.list]]
+        class = "website"
+        icon = "fa-globe"
+        url = "//shanemook.com"
+        title = "shanemook.com"
+
+        [[params.contact.list]]
         class = "email"
         icon = "fa-envelope"
         url = "mailto: shane.mook@gmail.com"
@@ -48,12 +54,6 @@ disable404 = true
         icon = "fa-phone"
         url = "tel:+3125020353"
         title = "312-502-0353"
-
-        [[params.contact.list]]
-        class = "website"
-        icon = "fa-globe"
-        url = "//shanemookcom"
-        title = "shanemook.com"
 
         [[params.contact.list]]
         class = "website"
