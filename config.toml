@@ -163,7 +163,7 @@ disable404 = true
 
     # Projects section
     [params.projects]
-        enable = true
+        enable = false
         icon = "fa-archive"
         title = "Projects"
         intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
@@ -208,7 +208,11 @@ disable404 = true
         level = "98%"
 
         [[params.skills.list]]
-        skill = "Javascript/Coffescript"
+        skill = "Javascript / Coffescript"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Linux - Shell Scripting"
         level = "95%"
 
         [[params.skills.list]]
@@ -216,12 +220,12 @@ disable404 = true
         level = "90%"
 
         [[params.skills.list]]
-        skill = "Semantic HTML5 & CSS"
-        level = "85%"
+        skill = "PostgresSQL, MySQL"
+        level = "90%"
 
         [[params.skills.list]]
-        skill = "Devops - Docker, Linux, Postgres DBA"
-        level = "80%"
+        skill = "Semantic HTML5 & CSS"
+        level = "85%"
 
     # Footer section
 
