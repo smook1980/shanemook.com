@@ -1,7 +1,30 @@
-#!/usr/bin/env bash
+#!/usr/bin/env fish
 
+if not git st | grep -i "working tree clean";
+   echo -e "++ Committing current changes.\n"
+   git add ./
+   git reset dist
+   git commit -m"Site Update - "(date -v1m -v+1y)
+end
+
+echo -e "++ Generating Site...\n"
+git reset dist
+git co ./dist
 hugo
-git reset
+echo -e "++ Comitting ./dist and tagging...\n"
 git add dist
-git commit -m"Site Update - $(date -v1m -v+1y)"
+git commit -m "Site Update - "(date -v1m -v+1y)
+
+
+
+
+
+git tag (date "+%Y-%m-%d_%H:%M")
+echo -e "++ Pushing to publish...\n"
 git subtree push --prefix=dist publish master
+
+echo -e "++ Pushing tags...\n"
+git push --tags origin master
+echo -e "++ Ok - Published!"
+
+open 'http://shanemook.com'
