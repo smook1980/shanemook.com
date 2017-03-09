@@ -201,7 +201,7 @@ disable404 = true
         level = "95%"
 
         [[params.skills.list]]
-        skill = "Java - Spring, Struts, Hybernate"
+        skill = "Java - JUnit, Spring, Struts, Hybernate"
         level = "90%"
 
         [[params.skills.list]]
