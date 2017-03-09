@@ -1,5 +1,7 @@
 #!/usr/bin/env fish
 
+hugo
+
 if not git st | grep -i "working tree clean";
    echo -e "++ Committing current changes.\n"
    git add ./
@@ -14,10 +16,6 @@ hugo
 echo -e "++ Comitting ./dist and tagging...\n"
 git add dist
 git commit -m "Site Update - "(date -v1m -v+1y)
-
-
-
-
 
 git tag (date "+%Y-%m-%d_%H:%M")
 echo -e "++ Pushing to publish...\n"
