@@ -130,7 +130,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "Full stack software engineer with over six and half years of expierence working in a team environment to produce outstanding web and mobile applications. An advocate for test drive design, refactoring code when appropriate to stay in line with the change business doamin, and high code stadards to maintain team velocity. Expeirence maintaining and scaling complicated backend systems use devops best practices to meet increasing and changing business demands. In addition to my primary role as a software engineer I have acted in several other roles to adapt to business needs -- server adminstrator, quality assurance, test engineer, database administrator, project manager and technical team lead."
+        summary = "Full stack software engineer with over six and a half years of experience working in an agile team environment to produce web and mobile applications. An advocate for test driven design, refactoring code when appropriate to keep code aligned with a changing business domain, and high code standards to maintain team velocity as a project matures. Experienced maintaining and scaling complicated back-end systems using current dev-ops best practices to meet increasing and changing business demands. In addition to my primary role as a software engineer I have acted in several other roles to adapt to business needs -- server administration, quality assurance, test engineer, database administrator, project manager and technical team lead."
 
     # Experiences section
     [params.experiences]
@@ -142,13 +142,14 @@ disable404 = true
         position = "Freelance Consultant"
         dates = "March 2016 - Present"
         company = "Chicago, IL"
-        details = "Worked remotely with several small agile teams in the bay area with Ruby, Ruby on Rails, Backbone, React, VueJS, ES2015, Webpack, Babel and Javascript technologies. Projects were deployed to Heroku and AWS. Practiced test-first development and scrum and kanban project planning."
+        details = "Worked remotely with several small bay area agile teams with Ruby, Ruby on Rails, Backbone, React, VueJS, ES2015, CoffeeScript, Webpack, Babel and Javascript technologies. Projects were deployed to Heroku and AWS. Practiced test-driven development with scrum and kanban project planning."
 
         [[params.jobs.list]]
         position = "Senior Software Engineer"
         dates = "May 2009 - March 2016"
         company = "NCSA Athletic Recruit, Chicago, IL"
-        details = "Full stack software developer with over five years experience in an agile environment. Experienced with Ruby on Rails, Go, Sinatra, Java, Spring, Struts, Hibernate, and Objective-C/iOS to create traditional web and mobile applications. Created fluid single page interfaces with Javascript, CoffeeScript, BackboneJS, and SASS/CSS. Worked closely with product owners to produce business value. All production code was written in a test-driven manner, often while pair programming. Applied dev-ops techniques to manage an increasingly complex infrastructure using chef in a test-driven configuration with ChefSpec and Vagrant. Supported close to forty production servers in a highly available clustered configuration utilizing HAProxy, Apache HTTP, Puma, Passenger, Tomcat, MySQL, MS SQL Server, MySQL, Postgres, ElasticSearch, Beanstalk, Drupal and Wordpress. Projects deployed to Amazon AWS, RackSpace and a private VMWare cluster. Worked to eliminate single points of failure to reduce downtimes."
+        details = "Over five years experience as a software developer in an agile environment. Worked with Ruby on Rails, RSpec, Grape, Sinatra, Java, JUnit, Spring, Struts, Hibernate, and Objective-C/iOS to create web and mobile applications. Created fluid single page interfaces with Javascript, CoffeeScript, BackboneJS, and SASS/CSS. Partnered with product owners to maximize business value with a minimal investment in development time. All production code was written in a test-driven manner, often while pair programming. Applied dev-ops techniques to manage an increasingly complex infrastructure using chef in a test-driven configuration with ChefSpec and Vagrant. Supported close to forty production servers in a highly available clustered configuration utilizing HAProxy, Apache HTTP, Puma, Passenger, Tomcat, MySQL, MS SQL Server, MySQL, Postgres, ElasticSearch, Beanstalk, Drupal and Wordpress. Projects deployed to Amazon AWS, RackSpace and a private VMWare cluster. Worked to eliminate single points of failure, reduce downtimes, and scale as demand increased.
+"
 
         [[params.jobs.list]]
         position = "Network and Support Specialist"
@@ -185,6 +186,10 @@ disable404 = true
         level = "98%"
 
         [[params.skills.list]]
+        skill = "RSpec"
+        level = "98%"
+
+        [[params.skills.list]]
         skill = "Ruby On Rails"
         level = "98%"
 
@@ -207,6 +212,22 @@ disable404 = true
         [[params.skills.list]]
         skill = "Semantic HTML5 & CSS"
         level = "85%"
+
+        [[params.skills.list]]
+        skill = "Go"
+        level = "75%"
+
+        [[params.skills.list]]
+        skill = "Webpack"
+        level = "80%"
+
+        [[params.skills.list]]
+        skill = "SASS/LESS"
+        level = "75%"
+
+        [[params.skills.list]]
+        skill = "Amazon Web Services"
+        level = "70%"
 
     # Footer section
 
