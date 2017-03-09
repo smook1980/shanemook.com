@@ -1,4 +1,5 @@
 baseurl = "http://shanemook.com/"
+
 title = "shanemook.com"
 languageCode = "en-us"
 theme = "hugo-orbit-theme"
@@ -87,7 +88,7 @@ disable404 = true
         [[params.education.list]]
         degree = "Computer Science"
         college = "University of Wisconsin - La Crosse"
-        dates = "2008 - 2009"
+        dates = ""
 
     # Languages section
     [params.languages]
@@ -112,13 +113,13 @@ disable404 = true
         title = "Interests"
 
         [[params.interests.list]]
-        interest = "My Dog - Tucker"
-
-        [[params.interests.list]]
-        interest = "Backpacking and Hiking"
+        interest = "Tucker - The Best Dog, Ever"
 
         [[params.interests.list]]
         interest = "Travel"
+
+        [[params.interests.list]]
+        interest = "Backpacking and Hiking"
 
 # Main body sections
 
