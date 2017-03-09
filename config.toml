@@ -140,26 +140,26 @@ disable404 = true
         [[params.jobs.list]]
         position = "Freelance Consultant"
         dates = "March 2016 - Present"
-        company = "Shane Mook Consulting, Chicago"
-        details = "TBD"
+        company = "Chicago, IL"
+        details = "Worked remotely with several small agile teams in the bay area with Ruby, Ruby on Rails, Backbone, React, VueJS, ES2015, Webpack, Babel and Javascript technologies. Projects were deployed to Heroku and AWS. Practiced test-first development and scrum and kanban project planning."
 
         [[params.jobs.list]]
         position = "Senior Software Engineer"
         dates = "May 2009 - March 2016"
-        company = "NCSA Athletic Recruit, Chicago"
-        details = "Full stack software developer with over five years experience in an agile environment.   I've worked extensively with Java, Spring, Struts, Hibernate, Ruby on Rails, Sintra to create tradiiontal web applications and restful APIs for client consumption.  Created fluid single page interfaces with Javascript, CoffeeScript, BackboneJS, EmberJS, and SASS/CSS.  Work closely with product owners to produce business value.  All production code is written in a test drive manner, often while pair programming.  Applied devops techniques to manage an increasingly complex infrastructure using chef in a test drive configuration with chefspec and vagrant.  Support close to 40 production servers in a highly available clustered configuration utilizing HAProxy, Apache HTTPD, Puma, Passenger, Tomcat, MySQL, MS SQL Server, MySQL, Postgres, ElasticSearch, Beanstalk, Drupal and Wordpress.  Servers are deployed to Amazon AWS, RackSpace and a private VMWare cluster.  Worked to eliminate single points of failure to reduce downtimes.  Recent work has been focussed on iOS and Android development."
+        company = "NCSA Athletic Recruit, Chicago, IL"
+        details = "Full stack software developer with over five years experience in an agile environment. Experienced with Ruby on Rails, Go, Sinatra, Java, Spring, Struts, Hibernate, and Objective-C/iOS to create traditional web and mobile applications. Created fluid single page interfaces with Javascript, CoffeeScript, BackboneJS, and SASS/CSS. Worked closely with product owners to produce business value. All production code was written in a test-driven manner, often while pair programming. Applied dev-ops techniques to manage an increasingly complex infrastructure using chef in a test-driven configuration with ChefSpec and Vagrant. Supported close to forty production servers in a highly available clustered configuration utilizing HAProxy, Apache HTTP, Puma, Passenger, Tomcat, MySQL, MS SQL Server, MySQL, Postgres, ElasticSearch, Beanstalk, Drupal and Wordpress. Projects deployed to Amazon AWS, RackSpace and a private VMWare cluster. Worked to eliminate single points of failure to reduce downtimes."
 
         [[params.jobs.list]]
         position = "Network and Support Specialist"
         dates = "May 2008 - May 2009"
-        company = "NCSA Athletic Recruit, Chicago"
-        details = "Windows Client and Server Administration, Active Directory, Group Policy, Linux LAMP Administration, CVS Repository Administration, IP Phone Administration, Active Directory Integration With Various Systems, Python Scripting, HTML / JavaScript, Sonicwall Administration."
+        company = "NCSA Athletic Recruit, Chicago, IL"
+        details = "Involved in network operations and server administration working with Linux, Windows Server, Active Directory, Apache HTTPD, CVS, Python, HTML/Javascript, custom SQL reports."
 
         [[params.jobs.list]]
         position = "Assistant Manager of Technology"
         dates = "March 2002 - May 2008"
         company = "FedEx Office, Madison, WI & Skokie, IL"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        details = "Provided field technology support for FedEx Office locations."
 
     # Projects section
     [params.projects]
@@ -172,26 +172,6 @@ disable404 = true
         title = "Hugrid"
         url = "https://github.com/aerohub/hugrid"
         tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
-
-        [[params.projects.list]]
-        title = "Simple FAQ Theme for Hugo"
-        url = "https://github.com/aerohub/hugo-faq-theme"
-        tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
-
-        [[params.projects.list]]
-        title = "Hugo Identity"
-        url = "https://github.com/aerohub/hugo-identity-theme"
-        tagline = "Little profile/card-style template for Hugo."
-
-        [[params.projects.list]]
-        title = "Orbit"
-        url = "https://github.com/aerohub/hugo-orbit-theme"
-        tagline = "Hugo Resume/CV Theme for Developers."
-
-        [[params.projects.list]]
-        title = "Me"
-        url = "https://github.com/aerohub/hugo-me-theme"
-        tagline = "A simple responsive Hugo theme for personal site."
 
     # Skills section
     [params.skills]
@@ -208,19 +188,19 @@ disable404 = true
         level = "98%"
 
         [[params.skills.list]]
-        skill = "Javascript / Coffescript"
+        skill = "ES2015 / Javascript / Coffescript"
         level = "95%"
 
         [[params.skills.list]]
-        skill = "Linux - Shell Scripting"
+        skill = "Linux - Administration / Shell Scripting"
         level = "95%"
 
         [[params.skills.list]]
-        skill = "Java - Spring, Hybernate"
+        skill = "Java - Spring, Struts, Hybernate"
         level = "90%"
 
         [[params.skills.list]]
-        skill = "PostgresSQL, MySQL"
+        skill = "PostgresSQL, MySQL, MS Sql Server"
         level = "90%"
 
         [[params.skills.list]]
