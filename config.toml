@@ -1,6 +1,6 @@
 baseurl = "http://shanemook.com/"
 
-title = "shanemook.com"
+title = "Shane Mook - Software Developer"
 languageCode = "en-us"
 theme = "hugo-orbit-theme"
 googleAnalytics = "UA-76548214-1"
