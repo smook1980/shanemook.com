@@ -213,12 +213,12 @@ disable404 = true
         level = "85%"
 
         [[params.skills.list]]
-        skill = "Go"
-        level = "75%"
-
-        [[params.skills.list]]
         skill = "Webpack"
         level = "80%"
+
+        [[params.skills.list]]
+        skill = "Go"
+        level = "75%"
 
         [[params.skills.list]]
         skill = "SASS/LESS"
