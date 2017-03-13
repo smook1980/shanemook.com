@@ -142,7 +142,7 @@ disable404 = true
         position = "Freelance Consultant"
         dates = "March 2016 - Present"
         company = "Chicago, IL"
-        details = "Worked remotely with several small bay area agile teams with Ruby, Ruby on Rails, Backbone, React, VueJS, ES2015, CoffeeScript, Webpack, Babel and Javascript technologies. Projects were deployed to Heroku and AWS. Practiced test-driven development with scrum and kanban project planning."
+        details = "Worked remotely with several small Bay Area agile teams with Ruby, Ruby on Rails, Backbone, React, VueJS, ES2015, CoffeeScript, Webpack, Babel and Javascript technologies. Projects were deployed to Heroku and AWS. Practiced test-driven development with scrum and kanban project planning."
 
         [[params.jobs.list]]
         position = "Senior Software Engineer"
